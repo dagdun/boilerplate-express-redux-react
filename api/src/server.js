@@ -1,8 +1,8 @@
-const koa = require('koa');
-const app = koa();
+const express = require('express');
+const app = express();
 
-app.use(function *() {
-  this.body = 'Hello from koajs';
+app.get('/', (req, res) => {
+  res.send('ok');
 });
 
 app.listen(3000);

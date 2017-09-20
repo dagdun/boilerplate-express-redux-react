@@ -9,25 +9,18 @@ module.exports = {
     path.resolve(ROOT_PATH,'app/src/index')
   ],
   module: {
-    preLoaders: [
-      {
-        test: /\.jsx?$/,
-        loaders: process.env.NODE_ENV === 'production' ? [] : ['eslint'],
-        include: path.resolve(ROOT_PATH, './app')
-      }
-    ],
     loaders: [{
       test: /\.jsx?$/,
       exclude: /node_modules/,
-      loaders: ['react-hot', 'babel']
+      loaders: ['react-hot-loader', 'babel-loader']
     },
     {
       test: /\.scss$/,
-      loaders: ['style','css','sass']
+      loaders: ['style-loader','css-loader','sass-loader']
     }]
   },
   resolve: {
-    extensions: ['', '.js', '.jsx']
+    extensions: ['.js', '.jsx']
   },
   output: {
     path: process.env.NODE_ENV === 'production' ? path.resolve(ROOT_PATH, 'app/dist') : path.resolve(ROOT_PATH, 'app/build'),

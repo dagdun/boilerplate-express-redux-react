@@ -44,9 +44,7 @@ Good to understand what's what.
 
 - [Node](https://nodejs.org/en/) - JS runtime environment
 - [npm](https://www.npmjs.com/) - package manager
-- [Koa](http://koajs.com/) - api framework
-- [koa-router](https://github.com/alexmingoia/koa-router) - api router
-- [koa-cors](https://github.com/koajs/cors) - cors support
+- [express](http://expressjs.com/) - api framework
 - [Bookshelf.js](http://bookshelfjs.org/) - ORM
 - [knex](http://knexjs.org/) - query builder
 - [mysql](https://github.com/felixge/node-mysql) - MySQL driver for JS
@@ -71,7 +69,7 @@ Good to understand what's what.
 ## Scripts
 - **npm run webserver**
 
-     Starts Koa server
+     Starts server
 
 - **npm run test**
 
