@@ -2,15 +2,15 @@
 
 ## Docs
 
-[Detailed blogpost on how was this boilerplate built](http://blog.joanboixados.com/building-a-boilerplate-for-a-koa-redux-react-application-including-webpack-mocha-and-sass/)
-
 Good to understand what's what.
+
+fork from https://github.com/mezod/boilerplate-koa-redux-react.git
 
 ## Instructions
 
 1. **Clone repo**
 
-    git clone https://github.com/mezod/boilerplate-koa-redux-react.git
+    git clone https://github.com/dagdun/boilerplate-express-redux-react.git
 
 2. **Install dependencies**
 
